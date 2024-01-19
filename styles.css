@@ -1,0 +1,166 @@
+/* styles.css */
+
+/* 全局样式 */
+body {
+    font-family: "Microsoft YaHei";
+    /* 设置字体为Arial或者sans-serif */
+    font-size: 16px;
+    /* 设置全局字体大小为 16px，根据需要调整 */
+    margin: 20px;
+    /* 设置页面边距为20px */
+    display: flex;
+    /* 使用弹性盒子模型 */
+    flex-direction: column;
+    /* 设置主轴方向为纵向 */
+    align-items: center;
+    /* 在交叉轴上居中对齐 */
+    background-color: #f7f7f7;
+    /* 设置网页背景色为 #f7f7f7 */
+}
+
+a {
+    text-decoration: none;
+    /* 去除链接的下划线 */
+    color: #333333;
+    /* 设置默认链接文本颜色 */
+    font-weight: normal;
+    /* 设置默认字体粗细为普通 */
+}
+
+a:hover {
+    color: #0c82ff;
+    /* 设置悬浮时链接文本颜色 */
+    font-weight: bold;
+    /* 设置悬浮时字体粗细为粗体 */
+}
+
+
+/* 搜索框样式 */
+form {
+    display: flex;
+    /* 使用弹性盒子模型 */
+    align-items: center;
+    /* 在交叉轴上居中对齐 */
+    margin-bottom: 50px;
+    /* 底边距为20px */
+}
+
+/* 圖片樣式 */
+.google-logo {
+    height: 80px;
+    /* 控制高度為20px */
+    margin-right: 5px;
+    /* 可以根據需要調整圖片與搜索框之間的間距 */
+}
+
+
+/* 输入框样式 */
+input[type="text"] {
+    padding: 12px;
+    /* 内边距为12px */
+    border: 1px solid #ccc;
+    /* 边框为2px宽的灰色实线 */
+    border-radius: 10px 0 0 10px;
+    /* 左侧圆角为10px，右侧无圆角 */
+    width: 400px;
+    /* 调整宽度为300px */
+    font-size: 16px;
+    /* 设置全局字体大小为 16px，根据需要调整 */
+}
+
+/* 提交按钮样式 */
+input[type="submit"] {
+    padding: 12px 20px;
+    /* 上下内边距为12px，左右内边距为40px */
+    background-color: #4285F4;
+    /* 背景颜色为蓝色 */
+    border: none;
+    /* 去除边框 */
+    color: #fff;
+    /* 文字颜色为白色 */
+    border-radius: 0 10px 10px 0;
+    /* 右侧圆角为10px，左侧无圆角 */
+    cursor: pointer;
+    /* 鼠标悬停时显示手型指示 */
+    margin-left: -2px;
+    /* 负的左外边距以消除与文本输入框的间隙 */
+    font-family: "Microsoft YaHei";
+    /* 设置字体为Arial或者sans-serif */
+    font-size: 16px;
+    /* 设置全局字体大小为 16px，根据需要调整 */
+}
+
+/* 输入框在获得焦点时的样式 */
+input[type="text"]:focus {
+    outline: none;
+    /* 去除默认的外边框样式 */
+    border: 1px solid #4285F4;
+    /* 边框为2px宽的蓝色实线 */
+}
+
+input[type="submit"]:hover {
+    background-color: #3367D6;
+    /* 悬停时背景颜色变为深蓝色 */
+}
+
+/* 动态隐藏和显示元素的样式 */
+.hide {
+    display: none;
+    /* 不显示 */
+}
+
+.show {
+    display: block;
+    /* 显示为块级元素 */
+}
+
+/* 选项卡样式 */
+.tab-controller {
+    cursor: pointer;
+    /* 鼠标悬停时显示手型指示 */
+    padding: 5px;
+    /* 内边距为10px */
+    margin: 5px;
+    /* 外边距为5px */
+    border: none;
+    /* 边框为1px宽的灰色实线 */
+    display: inline-block;
+    /* 行内块级元素显示 */
+    color: #333333;
+    /* 设置默认链接文本颜色 */
+}
+
+
+/* 表格样式 */
+table {
+    width: 100%;
+    /* 宽度为100% */
+    border-collapse: collapse;
+    /* 合并边框 */
+    margin-top: 10px;
+    /* 顶边距为10px */
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    /* 边框为1px宽的灰色实线 */
+}
+
+th,
+td {
+    padding: 8px;
+    /* 内边距为8px */
+    text-align: center;
+    /* 文本居中对齐 */
+}
+
+
+/* 高亮样式 */
+.highlight {
+    background-color: #0c82ff;
+    /* 背景颜色为蓝色 */
+    color: white;
+    /* 文字颜色为白色 */
+}

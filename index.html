@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>My123</title>
+    <base target="_blank">
+</head>
+
+<body>
+    <p></p>
+    <p></p>
+    <p></p>
+    <form action="https://www.google.com/search" method="get">
+        <img src="google.png" class="google-logo">
+        <input type="text" name="q" autofocus />
+        <input type="submit" value="搜索一下" />
+    </form>
+    <div>
+        <div id="tab-0" class="tab-controller highlight" onmouseover="showTab(0)">常用</div>
+        <div id="tab-1" class="tab-controller" onmouseover="showTab(1)">图书</div>
+        <div id="tab-2" class="tab-controller" onmouseover="showTab(2)">新闻</div>
+        <div id="tab-3" class="tab-controller" onmouseover="showTab(3)">官网</div>
+        <div id="tab-4" class="tab-controller" onmouseover="showTab(4)">视频</div>
+        <div id="tab-5" class="tab-controller" onmouseover="showTab(5)">创客</div>
+        <div id="tab-6" class="tab-controller" onmouseover="showTab(6)">微软</div>
+        <div id="tab-7" class="tab-controller" onmouseover="showTab(7)">工具</div>
+
+        <div id="tb-0" class="show">
+            <table>
+                <tr>
+                    <td width="130">
+                        <a href="https://chat.openai.com/">ChatGPT</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.bing.com/">Bing</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.baidu.com/">百度</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.google.com/">Google</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.zhihu.com/hot">知乎</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="tb-1" class="hide">
+            <table>
+                <tr>
+                    <td width="130">
+                        <a href="http://sxsclg.chineseall.cn/index">书香理工</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://book.sciencereading.cn/">科学文库</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://zh.zlibrary-east.se/">Z library</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://artsandculture.google.com/">谷歌文艺</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://pubscholar.cn/">Pubscholar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="130">
+                        <a href="https://free.cwkeji.cn/">免费学术资源</a>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+        <div id="tb-2" class="hide">
+            <table>
+                <tr>
+                    <td width="130">
+                        <a href="https://www.qq.com/">腾讯网</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://news.sina.com.cn/hotnews/">新浪排行</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.yahoo.com/">Yahoo</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.cgtn.com/">CGTN</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.ithome.com/">IT之家</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://www.ifeng.com/">凤凰网</a>
+                    </td>
+                    <td>
+                        <a href="http://www.china.com.cn/">中国网</a>
+                    </td>
+                    <td>
+                        <a href="http://www.xinhuanet.com/">新华网</a>
+                    </td>
+                    <td>
+                        <a href="https://www.chinadaily.com.cn/">China Daily</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.sina.com.cn/">新浪</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="tb-3" class="hide">
+            <table>
+                <tr>
+                    <td width="130">
+                        <a href="https://www.ansys.com/zh-CN">Ansys</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.arduino.cc/">Arduino</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.3ds.com/zh-hans/">Dassault</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://ww2.mathworks.cn/">MathWorks</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.minitab.com/zh-cn/">Minitab</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="130">
+                        <a href="https://www.jmp.com/zh_cn/home.html">JMP</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.python.org/">Python</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.siemens.com/cn/zh.html">Simens</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.autodesk.com.cn/">Autodesk</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="tb-4" class="hide">
+            <table>
+                <tr>
+                    <td width="130">
+                        <a href="https://www.youtube.com/">YouTube</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.bilibili.com/">哔哩哔哩</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.cctv.com/">央视网</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.ted.com/">TED</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.bugutv.org/">布谷TV</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="tb-5" class="hide">
+            <table>
+                <tr>
+                    <td width="130">
+                        <a href="https://arduino.me/home">Arduino社区</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.raspberrypi.com/">Raspberry Pi</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.ros.org/">ROS</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.elecfans.com/">电子发烧友</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.ilovematlab.cn/">Matlab论坛</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="130">
+                        <a href="https://github.com/">GitHub</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="tb-6" class="hide">
+            <table>
+                <tr>
+                    <td width="130">
+                        <a href="https://www.microsoft365.com/">365</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.microsoft.com/zh-cn/microsoft-fabric">Fabric</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://learn.microsoft.com/zh-cn/">Learn</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://developer.microsoft.com/zh-cn/">Developer</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://make.powerapps.com">Power Apps</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="130">
+                        <a href="https://app.powerbi.com/">Power BI</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://azure.microsoft.com/zh-cn/">Azure</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="tb-7" class="hide">
+            <table>
+                <tr>
+                    <td width="130">
+                        <a href="https://translate.google.com/">Google 翻译</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://fanyi.baidu.com/">百度翻译</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.hao268.com/">hao268</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.jd.com/">京东</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.google.com/maps/">Google 地图</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="tb-8" class="hide">
+            <table>
+                <tr>
+                    <td width="130">
+                        <a href="https://translate.google.com/">Google 翻译</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://fanyi.baidu.com/">百度翻译</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.hao268.com/">hao268</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.jd.com/">京东</a>
+                    </td>
+                    <td width="130">
+                        <a href="https://www.google.com/maps/">Google 地图</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </div>
+</body>
+
+</html>
